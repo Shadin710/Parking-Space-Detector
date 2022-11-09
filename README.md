@@ -39,18 +39,16 @@ To install all these modules copy the requirement.txt file and run the below com
 ```bash
 pip install -r requirment.txt
 ```
-## CAD to Point-Cloud
-To Predict 3D object classification we need to transform the 3D Object to a **Point-Cloud**
-![alt text](https://github.com/Shadin710/CAD-Object-Classification/blob/main/Images/point_cloud.png?raw=True)
-
-Then we will be able to run [**PointNet**](https://github.com/charlesq34/pointnet) Architecture.
-## Accuracy & Loss 
-Epoch Size: 20\
-Batch size: 32\
-Learning rate: 0.001\
-Accuracy: 94.03%
-
-<!-- ![alt text](https://github.com/Shadin710/Brain-Tumor-Prediction/blob/main/images/accuracy_loss.png?raw=true) -->
+## Execute
+First, we need to pick or annotate the parking space
+```bash
+python parking_space_picker.py
+```
+Second, Run the **main.py**
+```bash
+python main.py
+```
+for reference you can check out the example files which is located in the **video** folder
 
 
 
