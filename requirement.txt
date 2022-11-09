@@ -1,0 +1,5 @@
+email
+opencv-python
+pickle
+numpy
+cvzone
