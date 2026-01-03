@@ -25,19 +25,24 @@ The dataset was taken from [Princeton Modelnet](https://modelnet.cs.princeton.ed
 Please create a virtual environment then install the modules
 To create virtual environment open command tab in that folder and run the command
 ``` bash
-py -3.X venv -m name_of_env
+python -m venv venv
+```
+Sometime the top command may not work if you use and older version of python
+To resolve that you can use
+```bash
+py -3.X venv -m name_venv
 ```
 X is refering a python version
 To activate the virtual environment
 
 ```bash
-.\name_of_env\Scripts\activate
+.\name_venv\Scripts\activate
 ```
 
 
 To install all these modules copy the requirement.txt file and run the below command
 ```bash
-pip install -r requirment.txt
+pip install -r requirement.txt
 ```
 ## Execute
 First, we need to pick or annotate the parking space

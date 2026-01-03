@@ -3,3 +3,6 @@ opencv-python
 pickle
 numpy
 cvzone
+streamlit
+streamlit-drawable-canvas==0.9.3
+streamlit==1.40.0
