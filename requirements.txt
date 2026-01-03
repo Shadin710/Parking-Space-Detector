@@ -1,4 +1,3 @@
-email
 opencv-python
 pickle
 numpy
