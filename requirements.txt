@@ -1,5 +1,5 @@
 opencv-python
-pickle
+pickle5
 numpy
 cvzone
 streamlit
