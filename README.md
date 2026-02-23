@@ -55,7 +55,9 @@ python main.py
 ```
 for reference you can check out the example files which is located in the **video** folder
 
-
+## Results
+This is the results for the parking space detector
+![Parking Space](./video/v21-ezgif.com-video-to-gif-converter.gif).
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
